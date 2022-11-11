@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--<h2>CSS Template using Grid</h2>
+<p>In this example, we have created a header, three unequal columns and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect.</p>
+<p><strong>Note:</strong> The Grid Layout Module is not supported in Internet Explorer or Edge 15 eand earlier versions.</p>
+-->
+    <div class="grid-container">
+        <div class="header">
+
+            <div class="logo">
+                <img src="logo2.png" alt="Logo" />
+            </div>
+        </div>
+
+        <div class="left" style="background-color:#556270;">
+            <nav>
+                <ul class="mcd-menu">
+                    <li>
+                        <a href="index.html" >
+                            <i class="fa fa-home"></i>
+                            <strong>Home</strong>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="active">
+                            <i class="fa fa-edit"></i>
+                            <strong>About</strong>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <i class="fa fa-gift"></i>
+                            <strong>Portfolio</strong>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="hobbies.html">
+                            <i class="fa fa-globe"></i>
+                            <strong>Hobbies</strong>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <i class="fa fa-comments-o"></i>
+                            <strong>Contact</strong>
+
+                        </a>
+
+                    </li>
+
+                    <!--<li>
+				<a href="">
+					<i class="fa fa-envelope-o"></i>
+					<strong>Contacts</strong>
+					<small>drop a line</small>
+				</a>
+			</li>-->
+                    <!--<li class="float">
+				<a class="search">
+					<input type="text" value="search ...">
+					<button><i class="fa fa-search"></i></button>
+				</a>
+				<a href="" class="search-mobile">
+					<i class="fa fa-search"></i>
+				</a>
+			</li>-->
+                </ul>
+            </nav>
+        </div>
+        <div class="middle" style="background-color:#343838;">
+            
+            <h2>About</h2>
+            <p>I am a 29 year old software engineering degree apprentice based at IBM, Leicester, Client Innovation Centre</p>
+            <p>My hobbies include playing chess, watching Formula One, making speciality coffee, and fine dining</p>
+            
+            <h2>Pictures of me</h2>
+            <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                  <img src="me1.jpeg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Wearing traditional Islamic Dress</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="img_forest.jpg">
+                  <img src="me2.jpeg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Wearing one of my favourite sweat tops from Luke</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="img_lights.jpg">
+                  <img src="me3.jpeg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Showing off a new haircut</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                  <img src="me4.jpeg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Wearing a smart outfit. In need of a haircut but it was lockdown</div>
+              </div>
+
+
+        </div>
+        <div class="right" style="background-color:#556270;">
+        <h3>Interesting facts</h3>
+        <ul>
+            <li><b>Medical Student</b> - I am a former medical student. I studied Medicine for 2 years</li><br />
+            <li><b>Burj Al Arab 7*</b> - I have visited and had a tour of the famous 7* hotel in Dubai</li><br />
+            <li><b>Liverpool</b> - I lived in Liverpool for 2 years whilst studying Medicine</li><br />
+            <li><b>Fernando Alonso</b> - My favourite Formula One Driver</li>
+        </ul>
+        
+</div>
+<div class="footer">
+    <div class="footer-grid">
+
+        <section class="footer-1-desc">
+            <h4>About</h4>
+            <img src="logo2.png" />
+              <p>The official homepage of Adam Jassat.</p>
+          </section>
+        
+        <section class="footer-1">
+          <h4>Main Menu</h4>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="about.html">About</a></p>
+            <p><a href="portfolio.html">Portfolio</a></p>
+            <p><a href="hobbies.html">Hobbies</a></p>
+        </section>
+
+       <!--<section class="footer-2">
+          <h4>Hobbies</h4>
+          <p><a href="chess.html">Chess</a></p>
+          <p><a href="f1.html">Formula One</a></p>
+          <p><a href="coffee.html">Coffee</a></p>
+          <p><a href="finedining.html">Fine Dining</a></p>
+        </section>-->
+
+       <section class="footer-3">
+         <h4>Portfolio</h4>
+         <p><a href="http://www.theeyeclinicofnorthampton.co.uk" target="_blank">The Eye Clinic</a></p>
+         <p><a href="http://www.masjid-umar.org" target="_blank">Evington Muslim Centre</a></p>
+         <p><a href="http://www.bearspectacles.co.uk" target="_blank">BearSpectacles</a></p>
+         <p><a href="http://www.evingtoncommunitycentre.co.uk" target="_blank">Evington Community Centre</a></p>
+       </section>
+
+       <section class="footer-4">
+        <h4>Social</h4>
+        <p><a href="https://www.facebook.com/adam.jassat.9" target="_blank">Facebook</a></p>
+        <p><a href="https://twitter.com/adamjassat" target="_blank">Twitter</a></p>
+        <p><a href="https://www.linkedin.com/in/adam-jassat-224b52113/" target="_blank">LinkedIn</a></p>
+        </section>
+   </div>
+</div>
+    </div>
+
+</body>
+
+</html>
